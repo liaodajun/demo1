@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Created by Liao on 2023/6/28.
  */
-/*@Controller
+@Controller
 @RequestMapping("/hello")
 public class controller {
     @GetMapping("/hello")
@@ -16,4 +16,4 @@ public class controller {
     public String hello(){
         return "hello";
     }
-}*/
+}
